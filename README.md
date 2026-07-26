@@ -1,7 +1,5 @@
 # Formique
 
-![Formique banner](https://raw.githubusercontent.com/JPS-Saahil/Formique/Assets/hero-banner.png)
-
 > A study in industrial design, CAD, and visual clarity.  
 > Formique documents the journey from first sketch to final product through observation, iteration, and a pursuit of clarity in form.
 
