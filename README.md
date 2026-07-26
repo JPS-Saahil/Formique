@@ -2,87 +2,91 @@
 
 # Formique
 
-<img src="./assets/hero-banner.png" alt="Formique Hero Banner" width="100%" />
+<img src="./assets/hero-banner.png" alt="Formique hero banner" width="100%" />
 
 <br>
 
-**A studio for industrial design, CAD exploration, and visual thinking.**  
-Formique documents the journey from first sketch to final object with clarity, restraint, and purpose.
+<sub>A study in industrial design, CAD, and visual clarity.</sub>
 
-<p>
-  <img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg" alt="License">
-  <img src="https://img.shields.io/badge/Status-Active%20Development-black.svg" alt="Status">
-  <img src="https://img.shields.io/badge/Focus-Industrial%20Design%20%26%20CAD-111111.svg" alt="Focus">
-</p>
+<br><br>
 
-<p>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=111111" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Three.js-000000?logo=three.js&logoColor=white" alt="Three.js">
-  <img src="https://img.shields.io/badge/GitHub_Pages-222222?logo=githubpages&logoColor=white" alt="GitHub Pages">
-</p>
-
-<p>
+<a href="https://github.com/JPS-Saahil/Formique">
+  <img src="https://img.shields.io/badge/Repository-Formique-111111?logo=github&logoColor=white" alt="Repository">
+</a>
+<a href="https://creativecommons.org/licenses/by-nc/4.0/">
+  <img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-666666?logo=creative-commons&logoColor=white" alt="License">
+</a>
+<a href="https://github.com/JPS-Saahil">
   <img src="https://img.shields.io/badge/GitHub-JPS--Saahil-181717?logo=github&logoColor=white" alt="GitHub">
-</p>
+</a>
+<a href="https://www.linkedin.com/in/your-public-profile/">
+  <img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="HTML5">
+<img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="CSS3">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=111111" alt="JavaScript">
+<img src="https://img.shields.io/badge/Three.js-000000?logo=three.js&logoColor=white" alt="Three.js">
+<img src="https://img.shields.io/badge/GitHub%20Pages-222222?logo=githubpages&logoColor=white" alt="GitHub Pages">
 
 </div>
 
 ---
 
-## ◼ Overview
+## Overview
 
-Formique is a dream project by **JPS Saahil**.
+**Formique** is a personal studio project by **JPS Saahil**.
 
-It is built as a calm, serious, and elegant space for industrial design work. The website focuses on the complete design journey, from sketching and observation to CAD development, rendering, and final presentation.
+It presents industrial design work with a calm, architectural interface and a strong focus on process. The site is intended to document how an object evolves from first sketch to final outcome through observation, refinement, CAD development, rendering, and presentation.
 
-This is not a generic gallery. It is a studio space.
+Formique is not a conventional portfolio. It is a design space.
 
 ---
 
-## ◆ Philosophy
+## Design Direction
 
-Formique is shaped by the visual language of:
+The visual language is influenced by:
 
 - Industrial sketchbooks
 - Architectural drawings
 - Technical sheets
 - Swiss typography
-- Product manuals
-- Museum-style presentation
-- Minimal studio environments
+- Product documentation
+- Studio workbenches
+- Minimal exhibition layouts
 
-The goal is to make the interface feel precise, quiet, and timeless while keeping the work at the center.
+The interface should feel precise, editorial, and restrained. The work must remain the primary focus.
 
 ---
 
-## ◉ What the Site Showcases
+## What the Website Shows
 
-Each project can be presented as a design sequence:
+Each project is presented as a sequence of design stages:
 
 - Research
 - Ideation
 - Industrial sketch
 - Refinement
 - CAD modeling
-- Material exploration
+- Surface and form exploration
 - Wireframe studies
 - Prototype stage
 - Final render
 - Completed product
 
-The site is designed to help visitors understand not only what was made, but how it was made.
+The emphasis is not only on the final object, but on the process behind it.
 
 ---
 
-## ▌ Key Features
+## Core Experience
 
 ### Interactive Object Viewer
 
-A dedicated 3D viewing window for model inspection with smooth rotation and clear mode switching.
+A dedicated 3D viewing area for rotating and inspecting models.
 
-Planned display modes:
+Planned viewing states:
 
 - Solid
 - Wireframe
@@ -96,17 +100,17 @@ Planned display modes:
 
 A separate window for industrial sketch images in PNG or JPEG format.
 
-Useful controls:
+Planned controls:
 
 - Zoom
 - Pan
 - Fullscreen
-- Comparison view
-- Side-by-side reference with the CAD model
+- Reference comparison
+- Side-by-side sketch and CAD view
 
 ### Studio Controls
 
-A full customization panel for shaping the viewing experience.
+A customization panel for shaping the visual and interaction experience.
 
 Planned options:
 
@@ -122,45 +126,45 @@ Planned options:
 - Interface density
 - Accessibility controls
 
-### Process-Driven Layout
+### Process Layout
 
-The interface should feel like a working design table rather than a standard website.
+The interface should behave like a real design table rather than a generic gallery.
 
-Each project can unfold through layers, states, and stages.
+Every project should feel layered, technical, and carefully considered.
 
 ---
 
-## ✦ Branch Structure
+## Branch Structure
 
 This repository uses two branches:
 
 ### `main`
-Used for GitHub Pages static hosting.
+Production branch used for GitHub Pages static hosting.
 
 ### `asses`
-Used for assets, development resources, and supporting files.
+Branch for assets, resources, and supporting project files.
 
 ---
 
-## ⌁ Social
+## Social Links
 
 - GitHub: [github.com/JPS-Saahil](https://github.com/JPS-Saahil)
-- LinkedIn: add your public profile link here
+- LinkedIn: replace the URL in the badge above with your public profile link
 
 ---
 
-## ▨ Tech Stack
+## Technology
 
 - HTML5
 - CSS3
 - JavaScript
 - Three.js
-- GLTF and GLB support
+- GLTF / GLB support
 - Responsive layout system
 
 ---
 
-## ◇ Repository Structure
+## Repository Structure
 
 ```txt
 formique/
@@ -178,31 +182,18 @@ formique/
 
 ---
 
-## ⊞ License
+## License
 
 This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License**.
 
-You may share and adapt the material for non-commercial use with proper attribution.
+You are free to share and adapt the material for non-commercial use with proper attribution.
 
 License details: https://creativecommons.org/licenses/by-nc/4.0/
 
 ---
 
-## ◜ About
+## About
 
 Created and maintained by **JPS Saahil**.
 
 Formique is a long-term exploration of industrial design, CAD, and visual clarity. It grows through sketches, studies, and finished forms, with each project adding another layer to the studio.
-
----
-
-## ◌ Optional Credits
-
-If you use libraries, assets, or icons, list them here.
-
-Example:
-
-- Three.js
-- Shields.io
-- Google Fonts
-- Simple Icons
