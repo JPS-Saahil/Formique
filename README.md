@@ -1,6 +1,6 @@
 # Formique
 
-![Formique hero banner](./assets/hero-banner.png)
+![Formique hero banner](./Assets/hero-banner.png)
 
 A study in industrial design, CAD, and visual clarity.
 
