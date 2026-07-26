@@ -1,43 +1,45 @@
 # Formique
 
-<img src="https://raw.githubusercontent.com/JPS-Saahil/Formique/Assets/hero-banner.png" alt="Formique banner" width="100%" />
+![Formique banner](https://raw.githubusercontent.com/JPS-Saahil/Formique/Assets/hero-banner.png)
+
+> A study in industrial design, CAD, and visual clarity.  
+> Formique documents the journey from first sketch to final product through observation, iteration, and a pursuit of clarity in form.
 
 <p align="left">
-  <strong>Formique</strong> is a space for exploring ideas through industrial design.
-  From the first sketch to the final product, it documents a process driven by observation, iteration, and a pursuit of clarity in form.
-</p>
-
-<p align="left">
-  <a href="https://github.com/JPS-Saahil">
+  <a href="https://github.com/JPS-Saahil" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/GitHub-JPS--Saahil-181717?logo=github&logoColor=white" alt="GitHub">
   </a>
-  <a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav">
+  <a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="mailto:jpssaahil2003@outlook.com">
     <img src="https://img.shields.io/badge/Email-jpssaahil2003%40outlook.com-0078D4?logo=microsoftoutlook&logoColor=white" alt="Email">
   </a>
-  <a href="https://creativecommons.org/licenses/by-nc/4.0/">
+  <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-6E6E6E?logo=creative-commons&logoColor=white" alt="License">
   </a>
-  <a href="https://pages.github.com/">
+  <a href="https://pages.github.com/" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/GitHub%20Pages-Static%20Host-222222?logo=githubpages&logoColor=white" alt="GitHub Pages">
   </a>
 </p>
 
----
+## Navigation
 
-## Studio Statement
-
-Formique is a long-term design space by **JPS Saahil**.
-
-It is built to present industrial design work with a calm and architectural tone. The website focuses on the complete journey of a product, from sketching and observation to CAD development, rendering, and final presentation.
-
-This is not a conventional portfolio. It is a working studio archive.
+[Overview](#overview) · [Studio language](#studio-language) · [What the site presents](#what-the-site-presents) · [Experience](#experience) · [Branches](#branches) · [Tech stack](#tech-stack) · [Contact](#contact) · [License](#license)
 
 ---
 
-## Design Language
+## Overview
+
+Formique is a personal studio project by **JPS Saahil**.
+
+It is designed to present industrial design work with a calm, architectural tone and a strong focus on process. The site documents how an object evolves from first sketch to final outcome through observation, refinement, CAD development, rendering, and presentation.
+
+Formique is not a conventional portfolio. It is a working studio archive.
+
+---
+
+## Studio language
 
 The visual direction is guided by:
 
@@ -49,11 +51,11 @@ The visual direction is guided by:
 - Studio workbenches
 - Minimal exhibition layouts
 
-The intention is to keep the interface precise, restrained, and editorial, while keeping the work at the center.
+The interface should feel precise, editorial, and restrained, while keeping the work at the center.
 
 ---
 
-## What the Website Presents
+## What the site presents
 
 Each project is structured as a sequence of design stages:
 
@@ -74,7 +76,7 @@ The emphasis is not only on the final object, but on the thinking behind it.
 
 ## Experience
 
-### Interactive Object Viewer
+### Interactive object viewer
 
 A dedicated 3D viewing area for rotating and inspecting models.
 
@@ -88,7 +90,7 @@ Planned viewing states:
 - Exploded view
 - Section view
 
-### Sketch Viewer
+### Sketch viewer
 
 A separate window for industrial sketch images in PNG or JPEG format.
 
@@ -100,7 +102,7 @@ Planned controls:
 - Reference comparison
 - Side-by-side sketch and CAD view
 
-### Studio Controls
+### Studio controls
 
 A customization panel for shaping the visual and interaction experience.
 
@@ -118,7 +120,7 @@ Planned options:
 - Interface density
 - Accessibility controls
 
-### Process Layout
+### Process layout
 
 The interface is designed to behave like a real design table rather than a generic gallery.
 
@@ -126,7 +128,7 @@ Every project should feel layered, technical, and carefully considered.
 
 ---
 
-## Branch Structure
+## Branches
 
 This repository uses two branches:
 
@@ -138,18 +140,18 @@ Branch for assets, resources, and supporting project files.
 
 ---
 
-## Technology
+## Tech stack
 
 - HTML5
 - CSS3
 - JavaScript
 - Three.js
-- GLTF and GLB support
+- GLTF / GLB support
 - Responsive layout system
 
 ---
 
-## Repository Structure
+## Repository structure
 
 ```txt
 formique/
@@ -170,10 +172,10 @@ formique/
 ## Contact
 
 <p align="left">
-  <a href="https://github.com/JPS-Saahil">
+  <a href="https://github.com/JPS-Saahil" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/GitHub-JPS--Saahil-181717?logo=github&logoColor=white" alt="GitHub">
   </a>
-  <a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav">
+  <a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="mailto:jpssaahil2003@outlook.com">
