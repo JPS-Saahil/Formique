@@ -1,20 +1,20 @@
 # Formique
 
-![Formique hero banner](./Assets/hero-banner.png)
+<img src="https://raw.githubusercontent.com/JPS-Saahil/Formique/Assets/hero-banner.png" alt="Formique hero banner" width="100%" />
 
 A study in industrial design, CAD, and visual clarity.
 
 [![GitHub](https://img.shields.io/badge/GitHub-JPS--Saahil-181717?logo=github&logoColor=white)](https://github.com/JPS-Saahil)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav)
 [![Email](https://img.shields.io/badge/Email-jpssaahil2003%40outlook.com-0078D4?logo=microsoftoutlook&logoColor=white)](mailto:jpssaahil2003@outlook.com)
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey?logo=creativecommons&logoColor=white)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey?logo=creative-commons&logoColor=white)](https://creativecommons.org/licenses/by-nc/4.0/)
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Static%20Host-222222?logo=githubpages&logoColor=white)](https://pages.github.com/)
 
 ---
 
 ## Overview
 
-Formique is a personal studio project by **JPS Saahil**.
+Formique is a personal studio project by JPS Saahil.
 
 It presents industrial design work with a calm, architectural interface and a strong focus on process. The site documents how an object evolves from first sketch to final outcome through observation, refinement, CAD development, rendering, and presentation.
 
@@ -129,7 +129,7 @@ Branch for assets, resources, and supporting project files.
 - CSS3
 - JavaScript
 - Three.js
-- GLTF / GLB support
+- GLTF and GLB support
 - Responsive layout system
 
 ---
@@ -154,9 +154,9 @@ formique/
 
 ## License
 
-This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License**.
+This project is licensed under the Creative Commons Attribution NonCommercial 4.0 International License.
 
-You may share and adapt the material for non-commercial use with proper attribution.
+You may share and adapt the material for non commercial use with proper attribution.
 
 License details: https://creativecommons.org/licenses/by-nc/4.0/
 
@@ -164,14 +164,14 @@ License details: https://creativecommons.org/licenses/by-nc/4.0/
 
 ## Contact
 
-- GitHub: [github.com/JPS-Saahil](https://github.com/JPS-Saahil)
-- LinkedIn: [linkedin.com](https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav)
-- Email: [jpssaahil2003@outlook.com](mailto:jpssaahil2003@outlook.com)
+- GitHub: https://github.com/JPS-Saahil
+- LinkedIn: https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav
+- Email: jpssaahil2003@outlook.com
 
 ---
 
 ## About
 
-Created and maintained by **JPS Saahil**.
+Created and maintained by JPS Saahil.
 
 Formique is a long-term exploration of industrial design, CAD, and visual clarity. It grows through sketches, studies, and finished forms, with each project adding another layer to the studio.
