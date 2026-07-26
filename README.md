@@ -5,19 +5,19 @@
 
 <p align="left">
   <a href="https://github.com/JPS-Saahil" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/GitHub-JPS--Saahil-181717?logo=github&logoColor=white" alt="GitHub">
+    <img src="https://img.shields.io/badge/JPS--Saahil-181717?style=for-the-badge&logo=github&logoColor=white&label=GitHub" alt="GitHub">
   </a>
   <a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn">
+    <img src="https://img.shields.io/badge/Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&label=LinkedIn" alt="LinkedIn">
   </a>
   <a href="mailto:jpssaahil2003@outlook.com">
-    <img src="https://img.shields.io/badge/Email-jpssaahil2003%40outlook.com-0078D4?logo=microsoftoutlook&logoColor=white" alt="Email">
+    <img src="https://img.shields.io/badge/jpssaahil2003%40outlook.com-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white&label=Email" alt="Email">
   </a>
   <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-6E6E6E?logo=creative-commons&logoColor=white" alt="License">
+    <img src="https://img.shields.io/badge/CC%20BY--NC%204.0-6E6E6E?style=for-the-badge&logo=creativecommons&logoColor=white&label=License" alt="License">
   </a>
   <a href="https://pages.github.com/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/GitHub%20Pages-Static%20Host-222222?logo=githubpages&logoColor=white" alt="GitHub Pages">
+    <img src="https://img.shields.io/badge/Static%20Host-222222?style=for-the-badge&logo=githubpages&logoColor=white&label=GitHub%20Pages" alt="GitHub Pages">
   </a>
 </p>
 
@@ -57,16 +57,18 @@ The interface should feel precise, editorial, and restrained, while keeping the 
 
 Each project is structured as a sequence of design stages:
 
-- Research
-- Ideation
-- Industrial sketch
-- Refinement
-- CAD modeling
-- Surface and form exploration
-- Wireframe studies
-- Prototype stage
-- Final render
-- Completed product
+```
+  01  Research
+  02  Ideation
+  03  Industrial sketch
+  04  Refinement
+  05  CAD modeling
+  06  Surface and form exploration
+  07  Wireframe studies
+  08  Prototype stage
+  09  Final render
+  10  Completed product
+```
 
 The emphasis is not only on the final object, but on the thinking behind it.
 
@@ -106,17 +108,12 @@ A customization panel for shaping the visual and interaction experience.
 
 Planned options:
 
-- Light and dark studio modes
-- Typography presets
-- Grid overlay
-- Paper texture
-- Motion intensity
-- Background tone
-- Image framing
-- Model lighting
-- Wireframe strength
-- Interface density
-- Accessibility controls
+| Appearance | Interaction | Display |
+|:--|:--|:--|
+| Light and dark studio modes | Motion intensity | Grid overlay |
+| Typography presets | Interface density | Paper texture |
+| Background tone | Accessibility controls | Image framing |
+| Model lighting | | Wireframe strength |
 
 ### Process layout
 
@@ -140,12 +137,16 @@ Branch for assets, resources, and supporting project files.
 
 ## Tech stack
 
-- HTML5
-- CSS3
-- JavaScript
-- Three.js
-- GLTF / GLB support
-- Responsive layout system
+<img src="https://skillicons.dev/icons?i=html,css,js,threejs&theme=dark" alt="HTML5, CSS3, JavaScript, Three.js" />
+
+| Technology | Role |
+|:--|:--|
+| HTML5 | Structure and markup |
+| CSS3 | Styling and layout |
+| JavaScript | Interaction and interface logic |
+| Three.js | 3D rendering and WebGL model viewer |
+| GLTF / GLB | 3D model format support |
+| Responsive layout system | Adaptive design across viewport sizes |
 
 ---
 
@@ -171,13 +172,13 @@ formique/
 
 <p align="left">
   <a href="https://github.com/JPS-Saahil" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/GitHub-JPS--Saahil-181717?logo=github&logoColor=white" alt="GitHub">
+    <img src="https://img.shields.io/badge/JPS--Saahil-181717?style=for-the-badge&logo=github&logoColor=white&label=GitHub" alt="GitHub">
   </a>
   <a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn">
+    <img src="https://img.shields.io/badge/Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&label=LinkedIn" alt="LinkedIn">
   </a>
   <a href="mailto:jpssaahil2003@outlook.com">
-    <img src="https://img.shields.io/badge/jpssaahil2003%40outlook.com-Email-0078D4?logo=microsoftoutlook&logoColor=white" alt="Email">
+    <img src="https://img.shields.io/badge/jpssaahil2003%40outlook.com-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white&label=Email" alt="Email">
   </a>
 </p>
 
@@ -189,7 +190,7 @@ This project is licensed under the **Creative Commons Attribution-NonCommercial 
 
 You may share and adapt the material for non-commercial use with proper attribution.
 
-License details: https://creativecommons.org/licenses/by-nc/4.0/
+License details: [creativecommons.org/licenses/by-nc/4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ---
 
