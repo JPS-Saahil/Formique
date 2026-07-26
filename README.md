@@ -1,4 +1,3 @@
-````md
 <div align="center">
 
 # Formique
@@ -8,7 +7,7 @@
 <br>
 
 **A studio for industrial design, CAD exploration, and visual thinking.**  
-From first sketch to final object, Formique documents the process with clarity, restraint, and purpose.
+Formique documents the journey from first sketch to final object with clarity, restraint, and purpose.
 
 <p>
   <img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg" alt="License">
@@ -42,7 +41,7 @@ This is not a generic gallery. It is a studio space.
 
 ---
 
-## ◆ Design Intent
+## ◆ Philosophy
 
 Formique is shaped by the visual language of:
 
@@ -73,13 +72,14 @@ Each project can be presented as a design sequence:
 - Final render
 - Completed product
 
-The site should let visitors understand not only what was made, but how it was made.
+The site is designed to help visitors understand not only what was made, but how it was made.
 
 ---
 
 ## ▌ Key Features
 
 ### Interactive Object Viewer
+
 A dedicated 3D viewing window for model inspection with smooth rotation and clear mode switching.
 
 Planned display modes:
@@ -93,6 +93,7 @@ Planned display modes:
 - Section view
 
 ### Sketch Viewer
+
 A separate window for industrial sketch images in PNG or JPEG format.
 
 Useful controls:
@@ -104,6 +105,7 @@ Useful controls:
 - Side-by-side reference with the CAD model
 
 ### Studio Controls
+
 A full customization panel for shaping the viewing experience.
 
 Planned options:
@@ -121,6 +123,7 @@ Planned options:
 - Accessibility controls
 
 ### Process-Driven Layout
+
 The interface should feel like a working design table rather than a standard website.
 
 Each project can unfold through layers, states, and stages.
@@ -142,7 +145,7 @@ Used for assets, development resources, and supporting files.
 ## ⌁ Social
 
 - GitHub: [github.com/JPS-Saahil](https://github.com/JPS-Saahil)
-- LinkedIn: replace with your public profile link before publishing
+- LinkedIn: add your public profile link here
 
 ---
 
@@ -171,7 +174,7 @@ formique/
 ├─ css/
 ├─ js/
 └─ README.md
-````
+```
 
 ---
 
@@ -199,10 +202,7 @@ If you use libraries, assets, or icons, list them here.
 
 Example:
 
-* Three.js
-* Shields.io
-* Google Fonts
-* Simple Icons
-
-```
-```
+- Three.js
+- Shields.io
+- Google Fonts
+- Simple Icons
