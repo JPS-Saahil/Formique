@@ -1,45 +1,22 @@
-<div align="center">
-
 # Formique
 
-<img src="./assets/hero-banner.png" alt="Formique hero banner" width="100%" />
+![Formique hero banner](./assets/hero-banner.png)
 
-<br>
+A study in industrial design, CAD, and visual clarity.
 
-<sub>A study in industrial design, CAD, and visual clarity.</sub>
-
-<br><br>
-
-<a href="https://github.com/JPS-Saahil/Formique">
-  <img src="https://img.shields.io/badge/Repository-Formique-111111?logo=github&logoColor=white" alt="Repository">
-</a>
-<a href="https://creativecommons.org/licenses/by-nc/4.0/">
-  <img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-666666?logo=creative-commons&logoColor=white" alt="License">
-</a>
-<a href="https://github.com/JPS-Saahil">
-  <img src="https://img.shields.io/badge/GitHub-JPS--Saahil-181717?logo=github&logoColor=white" alt="GitHub">
-</a>
-<a href="https://www.linkedin.com/in/your-public-profile/">
-  <img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn">
-</a>
-
-<br><br>
-
-<img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="HTML5">
-<img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="CSS3">
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=111111" alt="JavaScript">
-<img src="https://img.shields.io/badge/Three.js-000000?logo=three.js&logoColor=white" alt="Three.js">
-<img src="https://img.shields.io/badge/GitHub%20Pages-222222?logo=githubpages&logoColor=white" alt="GitHub Pages">
-
-</div>
+[![GitHub](https://img.shields.io/badge/GitHub-JPS--Saahil-181717?logo=github&logoColor=white)](https://github.com/JPS-Saahil)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav)
+[![Email](https://img.shields.io/badge/Email-jpssaahil2003%40outlook.com-0078D4?logo=microsoftoutlook&logoColor=white)](mailto:jpssaahil2003@outlook.com)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey?logo=creativecommons&logoColor=white)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Static%20Host-222222?logo=githubpages&logoColor=white)](https://pages.github.com/)
 
 ---
 
 ## Overview
 
-**Formique** is a personal studio project by **JPS Saahil**.
+Formique is a personal studio project by **JPS Saahil**.
 
-It presents industrial design work with a calm, architectural interface and a strong focus on process. The site is intended to document how an object evolves from first sketch to final outcome through observation, refinement, CAD development, rendering, and presentation.
+It presents industrial design work with a calm, architectural interface and a strong focus on process. The site documents how an object evolves from first sketch to final outcome through observation, refinement, CAD development, rendering, and presentation.
 
 Formique is not a conventional portfolio. It is a design space.
 
@@ -146,13 +123,6 @@ Branch for assets, resources, and supporting project files.
 
 ---
 
-## Social Links
-
-- GitHub: [github.com/JPS-Saahil](https://github.com/JPS-Saahil)
-- LinkedIn: replace the URL in the badge above with your public profile link
-
----
-
 ## Technology
 
 - HTML5
@@ -186,9 +156,17 @@ formique/
 
 This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License**.
 
-You are free to share and adapt the material for non-commercial use with proper attribution.
+You may share and adapt the material for non-commercial use with proper attribution.
 
 License details: https://creativecommons.org/licenses/by-nc/4.0/
+
+---
+
+## Contact
+
+- GitHub: [github.com/JPS-Saahil](https://github.com/JPS-Saahil)
+- LinkedIn: [linkedin.com](https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav)
+- Email: [jpssaahil2003@outlook.com](mailto:jpssaahil2003@outlook.com)
 
 ---
 
