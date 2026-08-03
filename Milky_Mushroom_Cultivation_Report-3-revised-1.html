@@ -1,0 +1,401 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Milky Mushroom Cultivation Report</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    :root{
+      --text:#111827;
+      --muted:#4b5563;
+      --line:#d1d5db;
+      --soft:#f9fafb;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      background:#fff;
+      color:var(--text);
+      font-family:"Times New Roman", Times, serif;
+      line-height:1.65;
+      font-size:16px;
+    }
+    .page{
+      max-width:900px;
+      margin:0 auto;
+      padding:32px 28px 40px;
+    }
+    .header{
+      text-align:left;
+      border-bottom:1px solid var(--line);
+      padding-bottom:16px;
+      margin-bottom:22px;
+    }
+    .title{
+      margin:0 0 8px;
+      font-size:28px;
+      font-weight:700;
+    }
+    .subtitle{
+      margin:0;
+      color:var(--muted);
+      font-size:14px;
+    }
+    .meta{
+      margin-top:14px;
+      font-size:13px;
+      color:var(--muted);
+    }
+    .section{
+      margin:20px 0;
+      padding-top:4px;
+    }
+    h2{
+      margin:0 0 10px;
+      font-size:20px;
+      font-weight:700;
+      border-bottom:1px solid var(--line);
+      padding-bottom:4px;
+    }
+    p{
+      margin:8px 0;
+      text-align:justify;
+    }
+    table{
+      width:100%;
+      border-collapse:collapse;
+      margin:10px 0 14px;
+      font-size:14px;
+    }
+    th, td{
+      border:1px solid var(--line);
+      padding:8px 10px;
+      vertical-align:top;
+    }
+    th{
+      background:var(--soft);
+      text-align:left;
+      font-weight:700;
+    }
+    ul{
+      margin:8px 0 0 22px;
+      padding:0;
+    }
+    li{margin:4px 0}
+    .fig{
+      margin:12px 0 18px;
+      page-break-inside:avoid;
+    }
+    .fig-title{
+      font-size:14px;
+      font-weight:700;
+      margin:0 0 8px;
+    }
+    canvas{
+      width:100% !important;
+      height:300px !important;
+      display:block;
+    }
+    .note{
+      font-size:13px;
+      color:var(--muted);
+      margin-top:6px;
+    }
+    .footer{
+      margin-top:24px;
+      border-top:1px solid var(--line);
+      padding-top:10px;
+      font-size:12px;
+      color:var(--muted);
+      text-align:left;
+    }
+    .refs ol{
+      margin:8px 0 0 22px;
+      padding:0;
+    }
+    .refs li{margin:6px 0}
+    a{color:#1d4ed8; text-decoration:none}
+    a:hover{text-decoration:underline}
+    @media print{
+      .page{max-width:none;padding:18mm}
+      body{font-size:14px}
+      h2{page-break-after:avoid}
+      .section,.fig{break-inside:avoid}
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="header">
+      <div class="title">Milky Mushroom Cultivation Report</div>
+      <p class="subtitle">A simple production report based on a 2-bucket indoor cultivation sample of milky mushroom (<i>Calocybe indica</i>).</p>
+      <div class="meta">
+        Sample size: 2 buckets | Bucket volume: 20 L each | Species: milky mushroom (<i>Calocybe indica</i>) | Experiment time: April to June
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Executive Summary</h2>
+      <p>
+        This report summarizes the observed growth pattern of milky mushroom (<i>Calocybe indica</i>) in a small indoor sample of two buckets.
+        The small sample suggests that a thicker casing layer over colonized straw may increase the time to harvest, and it may also increase
+        mushroom length and girth. The effect becomes less pronounced in later flushes, where both size and girth decline.
+      </p>
+      <p>
+        Research on milky mushroom cultivation shows that casing is important for fruit body initiation and support, and that casing thickness
+        has been reported to affect spawn run, first harvest timing, and yield. In the cited trial, a moderate casing thickness around 2.0 cm
+        performed best, while thicker layers delayed the crop and reduced yield. Milky mushroom is generally described as a warm-humid crop,
+        with cropping reports commonly placing it around 30 to 35 C under good moisture and air exchange. <a href="https://www.manage.gov.in/publications/resArticles/mahantesh/R%2021%20Milky%20review%20MR.pdf" target="_blank" rel="noopener">Source</a>
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Methodology</h2>
+      <table>
+        <tr><th>Parameter</th><th>Specification</th></tr>
+        <tr><td>Species</td><td>Milky mushroom (<i>Calocybe indica</i>)</td></tr>
+        <tr><td>Sample size</td><td>2 identical buckets</td></tr>
+        <tr><td>Bucket capacity</td><td>20 L per bucket</td></tr>
+        <tr><td>Substrate</td><td>Colonized straw with a casing layer applied over the top</td></tr>
+        <tr><td>Spawn rate</td><td>5 to 10 percent</td></tr>
+        <tr><td>Growing conditions</td><td>Warm humid indoor environment, ideally around 25 to 35 C, with 85 to 95 percent relative humidity and adequate fresh air exchange</td></tr>
+      </table>
+      <p>
+        Extension and review material consistently describe milky mushroom as a tropical species suited to humid tropical and subtropical
+        climates. The fruiting stage benefits from casing, moisture, and air exchange after colonization.
+        <a href="https://www.manage.gov.in/publications/resArticles/mahantesh/R%2021%20Milky%20review%20MR.pdf" target="_blank" rel="noopener">Review</a>
+        <a href="https://timesofindia.indiatimes.com/city/guwahati/icar-kvk-longding-introduces-milky-mushroom-cultivation/articleshow/123371160.cms" target="_blank" rel="noopener">News report</a>
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Experimental Setup</h2>
+      <p>
+        Both buckets were prepared under the same indoor conditions. The main variable of interest was the thickness of the casing layer
+        placed over the colonized straw, although the small sample size means the result should be treated as an observation rather than a final proof.
+      </p>
+      <ul>
+        <li>Bucket 1 used a thinner casing layer</li>
+        <li>Bucket 2 used a thicker casing layer</li>
+        <li>All other conditions were intended to be kept similar</li>
+        <li>Observations focused on growth time, length, girth, and flush-wise change</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Time Frame</h2>
+      <table>
+        <tr><th>Stage</th><th>Research reference</th><th>Practical meaning for this sample</th></tr>
+        <tr>
+          <td>Spawn run or colonization</td>
+          <td>About 15 to 20 days in reported studies; 2.0 cm casing gave the shortest spawn run in one controlled trial. <a href="https://www.researchtrend.net/bfij/pdf/Effect-of-Thickness-of-Casing-Soil-on-Growth-and-Yield-Performance-of-Milky-Mushroom-%28Calocybe-indica-P%26C%29-Md-Mijan-Hossain-73-.pdf" target="_blank" rel="noopener">Study</a></td>
+          <td>Near one month including settling and full colonization in a small bucket setup</td>
+        </tr>
+        <tr>
+          <td>Fruit body initiation</td>
+          <td>Pinheads generally emerge after casing is applied, often within about 7 to 10 days in extension reports. <a href="https://timesofindia.indiatimes.com/city/guwahati/icar-kvk-longding-introduces-milky-mushroom-cultivation/articleshow/123371160.cms" target="_blank" rel="noopener">Extension report</a></td>
+          <td>Visible fruiting after casing and moisture management</td>
+        </tr>
+        <tr>
+          <td>Main harvest window</td>
+          <td>First harvest has been reported around 39.2 days at 2.0 cm casing and up to 49.5 days at 3.5 cm casing. <a href="https://www.researchtrend.net/bfij/pdf/Effect-of-Thickness-of-Casing-Soil-on-Growth-and-Yield-Performance-of-Milky-Mushroom-%28Calocybe-indica-P%26C%29-Md-Mijan-Hossain-73-.pdf" target="_blank" rel="noopener">Study</a></td>
+          <td>Thicker layer generally means slower harvest but sometimes larger bodies</td>
+        </tr>
+        <tr>
+          <td>Crop duration</td>
+          <td>Multiple flushes can continue for about 45 to 50 days in field reports. <a href="https://timesofindia.indiatimes.com/city/guwahati/icar-kvk-longding-introduces-milky-mushroom-cultivation/articleshow/123371160.cms" target="_blank" rel="noopener">Extension report</a></td>
+          <td>Later flushes become smaller and less impressive</td>
+        </tr>
+        <tr>
+          <td>Experiment time</td>
+          <td colspan="2">April to June</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2>Observed Pattern</h2>
+      <p>
+        The main observation from this sample was that increasing the casing layer over the colonized straw increased the growth time,
+        but it also increased the length and girth of the mushrooms significantly. Over each flush, these traits decreased.
+      </p>
+      <p>
+        In simple terms, a thinner casing layer gave earlier but smaller mushrooms, while a thicker casing layer gave slower but larger
+        fruit bodies. This pattern is consistent with the general role of casing in milky mushroom cultivation, but the two-bucket sample is
+        too small to claim a universal effect.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Results</h2>
+      <table>
+        <tr><th>Scenario</th><th>Observed effect</th><th>Interpretation</th></tr>
+        <tr><td>Thinner layer</td><td>Faster development, smaller fruit bodies</td><td>Earlier crop but lower size expression</td></tr>
+        <tr><td>Thicker layer</td><td>Slower development, larger length and girth</td><td>Delayed crop with stronger body size</td></tr>
+      </table>
+
+      <div class="fig">
+        <div class="fig-title">Figure 1. Casing thickness versus first harvest timing and yield in published trials</div>
+        <canvas id="researchChart"></canvas>
+        <div class="note">This figure compares published trial values across casing thickness levels; it is not a new controlled experiment.</div>
+      </div>
+
+      <div class="fig">
+        <div class="fig-title">Figure 2. Observed 2-bucket trend, relative growth time and mushroom size index</div>
+        <canvas id="sampleChart"></canvas>
+        <div class="note">This is a qualitative sample index based on the observation, not a measured laboratory data series.</div>
+      </div>
+
+      <div class="fig">
+        <div class="fig-title">Figure 3. Relative size and girth across flushes</div>
+        <canvas id="flushChart"></canvas>
+        <div class="note">Later flushes usually become smaller, which matches the trend seen in the sample observation and reported cultivation behavior.</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Discussion</h2>
+      <p>
+        The sample behavior fits the idea that more casing over colonized straw can hold moisture better and support stronger fruit body
+        development, but at the cost of slower emergence. The research evidence also points to a practical optimum rather than unlimited
+        benefit from added casing. In particular, 2.0 cm casing has been reported to give shorter spawn run, earlier harvest, and higher
+        yield than thicker layers. <a href="https://www.researchtrend.net/bfij/pdf/Effect-of-Thickness-of-Casing-Soil-on-Growth-and-Yield-Performance-of-Milky-Mushroom-%28Calocybe-indica-P%26C%29-Md-Mijan-Hossain-73-.pdf" target="_blank" rel="noopener">Study</a>
+      </p>
+      <p>
+        Milky mushroom performs best in warm humid environments, which explains why stable indoor moisture and temperature control matter
+        so much in a small bucket system. <a href="https://www.manage.gov.in/publications/resArticles/mahantesh/R%2021%20Milky%20review%20MR.pdf" target="_blank" rel="noopener">Review</a>
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Conclusion</h2>
+      <p>
+        Based on this two-bucket indoor sample, the main finding is that a thicker casing layer may slow growth while increasing mushroom length
+        and girth, especially in the earlier flushes. The effect weakens in later flushes. Research supports the importance of casing and
+        suggests that moderate casing thickness is often the best balance for milky mushroom production, but the sample here is too small to
+        treat this as a definitive result.
+      </p>
+    </div>
+
+    <div class="section refs">
+      <h2>References and source links</h2>
+      <ol>
+        <li><a href="https://www.manage.gov.in/publications/resArticles/mahantesh/R%2021%20Milky%20review%20MR.pdf" target="_blank" rel="noopener">Status of milky mushroom in India, review PDF</a></li>
+        <li><a href="https://www.researchtrend.net/bfij/pdf/Effect-of-Thickness-of-Casing-Soil-on-Growth-and-Yield-Performance-of-Milky-Mushroom-%28Calocybe-indica-P%26C%29-Md-Mijan-Hossain-73-.pdf" target="_blank" rel="noopener">Effect of thickness of casing soil on growth and yield performance of milky mushroom</a></li>
+        <li><a href="https://www.phytojournal.com/archives/2018/vol7issue2/PartAY/7-2-426-512.pdf" target="_blank" rel="noopener">Effect of casing soil thickness on growth and yield of milky mushroom</a></li>
+        <li><a href="https://timesofindia.indiatimes.com/city/guwahati/icar-kvk-longding-introduces-milky-mushroom-cultivation/articleshow/123371160.cms" target="_blank" rel="noopener">ICAR-KVK Longding introduces milky mushroom cultivation</a></li>
+      </ol>
+    </div>
+
+    <div class="footer">
+      Milky Mushroom Cultivation Report, simple paper style HTML for hosting and download.
+    </div>
+  </div>
+
+  <script>
+    new Chart(document.getElementById('researchChart'), {
+      type: 'line',
+      data: {
+        labels: ['1.0 cm', '1.5 cm', '2.0 cm', '2.5 cm', '3.0 cm', '3.5 cm'],
+        datasets: [
+          {
+            label: 'Days to first harvest',
+            data: [42.2, 40.7, 39.2, 43.5, 46.1, 49.5],
+            tension: 0.3,
+            yAxisID: 'yDays',
+            borderWidth: 2
+          },
+          {
+            label: 'Yield per kg dry substrate',
+            data: [665, 705, 741, 621, 580, 531],
+            tension: 0.3,
+            yAxisID: 'yYield',
+            borderWidth: 2
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { position: 'bottom' } },
+        scales: {
+          yDays: {
+            type: 'linear',
+            position: 'left',
+            beginAtZero: true,
+            title: { display: true, text: 'Days' }
+          },
+          yYield: {
+            type: 'linear',
+            position: 'right',
+            beginAtZero: true,
+            grid: { drawOnChartArea: false },
+            title: { display: true, text: 'g per kg dry substrate' }
+          }
+        }
+      }
+    });
+
+    new Chart(document.getElementById('sampleChart'), {
+      type: 'bar',
+      data: {
+        labels: ['Bucket 1', 'Bucket 2'],
+        datasets: [
+          {
+            label: 'Growth time index',
+            data: [100, 118],
+            borderWidth: 1
+          },
+          {
+            label: 'Length and girth index',
+            data: [100, 132],
+            borderWidth: 1
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { position: 'bottom' } },
+        scales: {
+          y: { beginAtZero: true, title: { display: true, text: 'Relative index' } }
+        }
+      }
+    });
+
+    new Chart(document.getElementById('flushChart'), {
+      type: 'line',
+      data: {
+        labels: ['1st Flush', '2nd Flush', '3rd Flush'],
+        datasets: [
+          {
+            label: 'Relative length',
+            data: [100, 86, 73],
+            tension: 0.35,
+            fill: false,
+            borderWidth: 2
+          },
+          {
+            label: 'Relative girth',
+            data: [100, 90, 78],
+            tension: 0.35,
+            fill: false,
+            borderWidth: 2
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { position: 'bottom' } },
+        scales: {
+          y: { beginAtZero: true, max: 110, title: { display: true, text: 'Relative index' } }
+        }
+      }
+    });
+  </script>
+</body>
+</html>
