@@ -1,0 +1,384 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Indoor Oyster Mushrooms Cultivation Project</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    :root{
+      --text:#111827;
+      --muted:#4b5563;
+      --line:#d1d5db;
+      --soft:#f9fafb;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      background:#fff;
+      color:var(--text);
+      font-family:"Times New Roman", Times, serif;
+      line-height:1.65;
+      font-size:16px;
+    }
+    .page{
+      max-width:900px;
+      margin:0 auto;
+      padding:32px 28px 40px;
+    }
+    .header{
+      text-align:left;
+      border-bottom:1px solid var(--line);
+      padding-bottom:16px;
+      margin-bottom:22px;
+    }
+    .title{
+      margin:0 0 8px;
+      font-size:28px;
+      font-weight:700;
+    }
+    .subtitle{
+      margin:0;
+      color:var(--muted);
+      font-size:14px;
+    }
+    .meta{
+      margin-top:14px;
+      font-size:13px;
+      color:var(--muted);
+    }
+    .section{
+      margin:20px 0;
+      padding-top:4px;
+    }
+    h2{
+      margin:0 0 10px;
+      font-size:20px;
+      font-weight:700;
+      border-bottom:1px solid var(--line);
+      padding-bottom:4px;
+    }
+    h3{
+      margin:14px 0 8px;
+      font-size:16px;
+      font-weight:700;
+    }
+    p{
+      margin:8px 0;
+      text-align:justify;
+    }
+    table{
+      width:100%;
+      border-collapse:collapse;
+      margin:10px 0 14px;
+      font-size:14px;
+    }
+    th, td{
+      border:1px solid var(--line);
+      padding:8px 10px;
+      vertical-align:top;
+    }
+    th{
+      background:var(--soft);
+      text-align:left;
+      font-weight:700;
+    }
+    ul{
+      margin:8px 0 0 22px;
+      padding:0;
+    }
+    li{margin:4px 0}
+    .fig{
+      margin:12px 0 18px;
+      page-break-inside:avoid;
+    }
+    .fig-title{
+      font-size:14px;
+      font-weight:700;
+      margin:0 0 8px;
+    }
+    canvas{
+      width:100% !important;
+      height:300px !important;
+      display:block;
+    }
+    .note{
+      font-size:13px;
+      color:var(--muted);
+      margin-top:6px;
+    }
+    .footer{
+      margin-top:24px;
+      border-top:1px solid var(--line);
+      padding-top:10px;
+      font-size:12px;
+      color:var(--muted);
+      text-align:left;
+    }
+    @media print{
+      .page{max-width:none;padding:18mm}
+      body{font-size:14px}
+      h2{page-break-after:avoid}
+      .section, .fig{break-inside:avoid}
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="header">
+      <div class="title">Indoor Oyster Mushrooms Cultivation Project</div>
+      <p class="subtitle">A simple production report based on a 6-bucket indoor cultivation sample of white oyster mushrooms (<i>Pleurotus ostreatus</i>).</p>
+      <div class="meta">
+        Sample size: 6 buckets | Bucket volume: 20 L each | Fruiting holes: 16 per bucket | Conditions: 20 to 28 C, 85 to 95 percent RH
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Executive Summary</h2>
+      <p>
+        This report summarizes expected production from six identical indoor cultivation buckets of white oyster mushrooms
+        (<i>Pleurotus ostreatus</i>). Under practical growing conditions, the sample can produce approximately 7.2 to 18.0 kg in total,
+        depending on substrate quality, spawn vigor, humidity control, and fresh air exchange.
+      </p>
+      <p>
+        The first flush usually contributes the majority of the harvest, while later flushes are smaller and gradually taper off
+        as the substrate becomes depleted.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Methodology</h2>
+      <table>
+        <tr>
+          <th>Parameter</th>
+          <th>Specification</th>
+        </tr>
+        <tr>
+          <td>Species</td>
+          <td>White oyster mushrooms (<i>Pleurotus ostreatus</i>)</td>
+        </tr>
+        <tr>
+          <td>Sample size</td>
+          <td>6 identical buckets</td>
+        </tr>
+        <tr>
+          <td>Bucket capacity</td>
+          <td>20 L per bucket</td>
+        </tr>
+        <tr>
+          <td>Substrate</td>
+          <td>Pasteurized straw or similar lignocellulosic substrate</td>
+        </tr>
+        <tr>
+          <td>Spawn rate</td>
+          <td>5 to 10 percent</td>
+        </tr>
+        <tr>
+          <td>Fruiting holes</td>
+          <td>16 well-distributed holes per bucket</td>
+        </tr>
+        <tr>
+          <td>Growing conditions</td>
+          <td>20 to 28 C temperature, 85 to 95 percent relative humidity, adequate fresh air exchange</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2>Experimental Setup</h2>
+      <p>
+        Each bucket was prepared with the same substrate fill, spawn application, and fruiting-hole arrangement.
+        The six buckets were treated as an equal sample for comparing expected productivity under indoor conditions.
+      </p>
+      <ul>
+        <li>Uniform bucket volume: 20 L</li>
+        <li>Uniform fruiting holes: 16 per bucket</li>
+        <li>Same substrate and spawn rate across all buckets</li>
+        <li>Indoor fruiting environment with controlled humidity and airflow</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Time Frame</h2>
+      <table>
+        <tr>
+          <th>Period</th>
+          <th>Growth plan</th>
+          <th>Estimated stage timing</th>
+        </tr>
+        <tr>
+          <td>February to April</td>
+          <td>One batch cycle for indoor cultivation</td>
+          <td>About 1 month colonization phase plus 1.5 to 2 months maturity and fruiting</td>
+        </tr>
+        <tr>
+          <td>April to July</td>
+          <td>Second batch cycle for indoor cultivation</td>
+          <td>About 1 month colonization phase plus 1.5 to 2 months maturity and fruiting</td>
+        </tr>
+      </table>
+      <p>
+        These two windows can be read as separate cultivation cycles, each requiring roughly 2.5 to 3 months from spawning to the
+        main harvest period.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Observations</h2>
+      <p>
+        White oyster mushrooms generally respond well to moderate temperatures and high humidity. Good air exchange helps reduce
+        deformation and supports healthy fruit body development. Production is typically highest in the first flush and then declines
+        in subsequent flushes.
+      </p>
+      <p>
+        In bucket cultivation, performance depends strongly on moisture balance, spawn quality, and the stability of the indoor environment.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Results</h2>
+      <table>
+        <tr>
+          <th>Scenario</th>
+          <th>Per Bucket</th>
+          <th>Total for 6 Buckets</th>
+        </tr>
+        <tr>
+          <td>Conservative</td>
+          <td>1.2 to 1.5 kg</td>
+          <td>7.2 to 9.0 kg</td>
+        </tr>
+        <tr>
+          <td>Good</td>
+          <td>1.8 to 2.2 kg</td>
+          <td>10.8 to 13.2 kg</td>
+        </tr>
+        <tr>
+          <td>Excellent</td>
+          <td>2.5 to 3.0 kg</td>
+          <td>15.0 to 18.0 kg</td>
+        </tr>
+      </table>
+
+      <div class="fig">
+        <div class="fig-title">Figure 1. Average Total Yield by Scenario</div>
+        <canvas id="yieldChart"></canvas>
+      </div>
+
+      <div class="fig">
+        <div class="fig-title">Figure 2. Typical Yield Distribution Across Flushes</div>
+        <canvas id="flushChart"></canvas>
+      </div>
+
+      <div class="fig">
+        <div class="fig-title">Figure 3. Relative Production Potential vs Temperature and Humidity</div>
+        <canvas id="envChart"></canvas>
+        <div class="note">This figure shows an illustrative trend based on common oyster mushroom fruiting guidance rather than measured trial data.</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Discussion</h2>
+      <p>
+        The wide range between conservative and excellent yield reflects normal variation in substrate preparation, colonization strength,
+        water management, and environmental control. When humidity remains in the preferred range and fresh air exchange is adequate,
+        indoor oyster mushroom performance improves significantly.
+      </p>
+      <p>
+        For a six-bucket sample, the first flush is the most important harvest event. Later flushes may still be useful, but they usually
+        contribute a smaller proportion of the final yield.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Conclusion</h2>
+      <p>
+        Based on this 6-bucket indoor sample of white oyster mushrooms (<i>Pleurotus ostreatus</i>), the expected total production is
+        approximately 7.2 to 18.0 kg. The report indicates that stable temperature, high humidity, and proper airflow are essential for
+        better output. The charted flush pattern confirms that the majority of harvest comes from the first flush.
+      </p>
+    </div>
+
+    <div class="footer">
+      Indoor Oyster Mushrooms Cultivation Project, simple report format for hosting and download.
+    </div>
+  </div>
+
+  <script>
+    new Chart(document.getElementById('yieldChart'), {
+      type: 'bar',
+      data: {
+        labels: ['Conservative', 'Good', 'Excellent'],
+        datasets: [{
+          label: 'Average total yield (kg)',
+          data: [8.1, 12.0, 16.5],
+          borderWidth: 1
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          y: { beginAtZero: true, title: { display: true, text: 'kg from 6 buckets' } }
+        }
+      }
+    });
+
+    new Chart(document.getElementById('flushChart'), {
+      type: 'line',
+      data: {
+        labels: ['1st Flush', '2nd Flush', '3rd Flush', '4th Flush'],
+        datasets: [{
+          label: 'Percent of total yield',
+          data: [65, 25, 8, 2],
+          tension: 0.35,
+          fill: false,
+          borderWidth: 2
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          y: { beginAtZero: true, max: 70, title: { display: true, text: '% of total yield' } }
+        }
+      }
+    });
+
+    new Chart(document.getElementById('envChart'), {
+      type: 'line',
+      data: {
+        labels: [18, 20, 22, 24, 26, 28, 30],
+        datasets: [
+          {
+            label: 'Temperature suitability',
+            data: [58, 78, 92, 100, 98, 90, 68],
+            tension: 0.35,
+            fill: false,
+            borderWidth: 2
+          },
+          {
+            label: 'Humidity suitability',
+            data: [60, 76, 88, 96, 100, 98, 90],
+            tension: 0.35,
+            fill: false,
+            borderWidth: 2
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { position: 'bottom' } },
+        scales: {
+          y: { beginAtZero: true, max: 110, title: { display: true, text: 'Relative suitability (index)' } },
+          x: { title: { display: true, text: 'Condition level' } }
+        }
+      }
+    });
+  </script>
+</body>
+</html>
