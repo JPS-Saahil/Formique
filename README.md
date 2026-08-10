@@ -1,6 +1,6 @@
 # Formique
 
-> A personal asset repository. Stores files for multiple projects — web, CAD, 3D, and more.
+> A personal asset repository. Stores files for multiple projects web, CAD, 3D, and more.
 
 <p align="left">
   <a href="https://github.com/JPS-Saahil" target="_blank" rel="noreferrer">
