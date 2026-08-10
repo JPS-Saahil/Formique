@@ -27,7 +27,7 @@
 
 Formique is a centralized asset store maintained by **JPS Saahil**.
 
-It holds files for various projects — including website assets, CAD exports, 3D models, renders, sketches, textures, and miscellaneous docs. Each project gets its own folder inside the `assets` branch. Nothing here is meant to be deployed on its own; it exists purely as storage and a source for raw file references.
+It holds files for various projects including website assets, CAD exports, 3D models, renders, sketches, textures, and miscellaneous docs. Each project gets its own folder inside the `assets` branch. Nothing here is meant to be deployed on its own; it exists purely as storage and a source for raw file references.
 
 ---
 
@@ -36,7 +36,7 @@ It holds files for various projects — including website assets, CAD exports, 3
 | Branch | Purpose |
 |:--|:--|
 | `main` | This README and any index or manifest files |
-| `assets` | All project asset folders — the actual files |
+| `assets` | All project asset folders the actual files |
 
 ---
 
@@ -57,7 +57,7 @@ assets (branch root)
 └── ...
 ```
 
-Subfolders within each project folder are informal — organized however suits that project.
+Subfolders within each project folder are informal organized however suits that project.
 
 ---
 
